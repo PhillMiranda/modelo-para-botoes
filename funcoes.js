@@ -12,91 +12,87 @@ function Avaliar(estrela) {
     var avaliacao = 0;
    
    if (estrela == 5){ 
-    if (s5 == url + "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star0.png") {
-    document.getElementById("s1").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star1.png";
-    document.getElementById("s2").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star1.png";
-    document.getElementById("s3").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star1.png";
-    document.getElementById("s4").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star1.png";
-    document.getElementById("s5").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star1.png";
+    if (s5 == url + "star0.png") {
+    document.getElementById("s1").src = "star1.png";
+    document.getElementById("s2").src = "star1.png";
+    document.getElementById("s3").src = "star1.png";
+    document.getElementById("s4").src = "star1.png";
+    document.getElementById("s5").src = "star1.png";
     avaliacao = 5;
     } else {
-    document.getElementById("s1").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star1.png";
-    document.getElementById("s2").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star1.png";
-    document.getElementById("s3").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star1.png";
-    document.getElementById("s4").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star1.png";
-    document.getElementById("s5").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star0.png";
+    document.getElementById("s1").src = "star1.png";
+    document.getElementById("s2").src = "star1.png";
+    document.getElementById("s3").src = "star1.png";
+    document.getElementById("s4").src = "star1.png";
+    document.getElementById("s5").src = "star0.png";
     avaliacao = 4;
    }}
     
-    //ESTRELA 4
    if (estrela == 4){ 
-    if (s4 == url + "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star0.png") {
-    document.getElementById("s1").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star1.png";
-    document.getElementById("s2").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star1.png";
-    document.getElementById("s3").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star1.png";
-    document.getElementById("s4").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star1.png";
-    document.getElementById("s5").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star0.png";
+    if (s4 == url + "star0.png") {
+    document.getElementById("s1").src = "star1.png";
+    document.getElementById("s2").src = "star1.png";
+    document.getElementById("s3").src = "star1.png";
+    document.getElementById("s4").src = "star1.png";
+    document.getElementById("s5").src = "star0.png";
     avaliacao = 4;
     } else {
-    document.getElementById("s1").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star1.png";
-    document.getElementById("s2").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star1.png";
-    document.getElementById("s3").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star1.png";
-    document.getElementById("s4").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star0.png";
-    document.getElementById("s5").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star0.png";
+    document.getElementById("s1").src = "star1.png";
+    document.getElementById("s2").src = "star1.png";
+    document.getElementById("s3").src = "star1.png";
+    document.getElementById("s4").src = "star0.png";
+    document.getElementById("s5").src = "star0.png";
     avaliacao = 3;
    }}
    
-   //ESTRELA 3
    if (estrela == 3){ 
-    if (s3 == url + "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star0.png") {
-    document.getElementById("s1").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star1.png";
-    document.getElementById("s2").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star1.png";
-    document.getElementById("s3").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star1.png";
-    document.getElementById("s4").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star0.png";
-    document.getElementById("s5").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star0.png";
+    if (s3 == url + "star0.png") {
+    document.getElementById("s1").src = "star1.png";
+    document.getElementById("s2").src = "star1.png";
+    document.getElementById("s3").src = "star1.png";
+    document.getElementById("s4").src = "star0.png";
+    document.getElementById("s5").src = "star0.png";
     avaliacao = 3;
     } else {
-    document.getElementById("s1").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star1.png";
-    document.getElementById("s2").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star1.png";
-    document.getElementById("s3").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star0.png";
-    document.getElementById("s4").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star0.png";
-    document.getElementById("s5").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star0.png";
+    document.getElementById("s1").src = "star1.png";
+    document.getElementById("s2").src = "star1.png";
+    document.getElementById("s3").src = "star0.png";
+    document.getElementById("s4").src = "star0.png";
+    document.getElementById("s5").src = "star0.png";
     avaliacao = 2;
    }}
     
-   //ESTRELA 2
    if (estrela == 2){ 
-    if (s2 == url + "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star0.png") {
-    document.getElementById("s1").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star1.png";
-    document.getElementById("s2").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star1.png";
-    document.getElementById("s3").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star0.png";
-    document.getElementById("s4").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star0.png";
-    document.getElementById("s5").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star0.png";
+    if (s2 == url + "star0.png") {
+    document.getElementById("s1").src = "star1.png";
+    document.getElementById("s2").src = "star1.png";
+    document.getElementById("s3").src = "star0.png";
+    document.getElementById("s4").src = "star0.png";
+    document.getElementById("s5").src = "star0.png";
     avaliacao = 2;
     } else {
-    document.getElementById("s1").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star1.png";
-    document.getElementById("s2").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star0.png";
-    document.getElementById("s3").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star0.png";
-    document.getElementById("s4").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star0.png";
-    document.getElementById("s5").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star0.png";
+    document.getElementById("s1").src = "star1.png";
+    document.getElementById("s2").src = "star0.png";
+    document.getElementById("s3").src = "star0.png";
+    document.getElementById("s4").src = "star0.png";
+    document.getElementById("s5").src = "star0.png";
     avaliacao = 1;
    }}
-    
-    //ESTRELA 1
+
    if (estrela == 1){ 
-    if (s1 == url + "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star0.png") {
-    document.getElementById("s1").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star1.png";
-    document.getElementById("s2").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star0.png";
-    document.getElementById("s3").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star0.png";
-    document.getElementById("s4").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star0.png";
-    document.getElementById("s5").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star0.png";
+    if (s1 == url + "star0.png") {
+    document.getElementById("s1").src = "star1.png";
+    document.getElementById("s2").src = "star0.png";
+    document.getElementById("s3").src = "star0.png";
+    document.getElementById("s4").src = "star0.png";
+    document.getElementById("s5").src = "star0.png";
     avaliacao = 1;
     } else {
-    document.getElementById("s1").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star0.png";
-    document.getElementById("s2").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star0.png";
-    document.getElementById("s3").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star0.png";
-    document.getElementById("s4").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star0.png";
-    document.getElementById("s5").src = "https://ucaplus.alterdata.com.br/draftfile.php/5/user/draft/737315701/star0.png";
+    document.getElementById("s1").src = "star0.png";
+    document.getElementById("s2").src = "star0.png";
+    document.getElementById("s3").src = "star0.png";
+    document.getElementById("s4").src = "star0.png";
+    document.getElementById("s5").src = "star0.png";
     avaliacao = 0;
    }}
     
